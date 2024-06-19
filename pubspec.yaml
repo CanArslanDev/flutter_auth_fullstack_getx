@@ -1,0 +1,24 @@
+name: 'flutter_kiyafet_app'
+version: '1.0.0+1'
+publish_to: none
+environment: 
+  sdk: '>=3.3.1 <4.0.0'
+description: A new Flutter project.
+dependencies: 
+  cloud_firestore: ^5.0.1
+  cupertino_icons: '^1.0.6'
+  firebase_auth: ^5.1.0
+  firebase_core: ^3.1.0
+  flutter: 
+    sdk: flutter
+  flutter_secure_storage: ^9.2.2
+  get: '^4.6.6'
+  pubspec_dependency_sorter: '^1.0.5'
+  responsive_sizer: ^3.3.1
+  very_good_analysis: '^5.1.0'
+dev_dependencies: 
+  flutter_lints: '^3.0.0'
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
